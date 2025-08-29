@@ -16,10 +16,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-# Apache Commons RDF
+# MetaLynq Commons RDF
 
-This fork of [Commons RDF](https://commons.apache.org/proper/commons-rdf/) aims to provide a common
-library for [RDF 1.2](http://www.w3.org/TR/rdf12-concepts/) with implementations
+This fork of [Apache Commons RDF](https://commons.apache.org/proper/commons-rdf/) aims to provide a
+common library for [RDF 1.2](http://www.w3.org/TR/rdf12-concepts/) with implementations
 for common Java RDF frameworks like [RDF4J](http://rdf4j.org/) and [Apache
 Jena](http://jena.apache.org/).
 
