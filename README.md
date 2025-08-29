@@ -78,7 +78,7 @@ Building has been tested with [Apache Maven 3](http://maven.apache.org/download.
 To then use this build from your project, add to Maven (update `<version>` to match the Maven output):
 
     <dependency>
-        <groupId>org.metalynq.commons</groupId>
+        <groupId>dev.metalynq.commons</groupId>
         <artifactId>commons-rdf-api</artifactId>
         <version>0.6.0</version>
     </dependency>
