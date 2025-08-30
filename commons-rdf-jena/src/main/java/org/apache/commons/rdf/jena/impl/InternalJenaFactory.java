@@ -45,7 +45,6 @@ import org.apache.jena.rdf.model.Model;
 import org.apache.jena.sparql.core.DatasetGraph;
 import org.apache.jena.sparql.core.DatasetGraphFactory;
 import org.apache.jena.sparql.graph.GraphFactory;
-import org.apache.jena.system.JenaSystem;
 
 /**
  * Constructs Jena implementations of Commons RDF.
@@ -56,11 +55,6 @@ import org.apache.jena.system.JenaSystem;
  * For the purpose of blank node identity, some of these methods require a {@link UUID} to use as a salt. See {@link BlankNode#uniqueReference()} for details.
  */
 public abstract class InternalJenaFactory {
-
-    static {
-        // https://jena.apache.org/documentation/notes/system-initialization.html
-        JenaSystem.init();
-    }
 
     /**
      * Constructs a new instance.
